@@ -40,7 +40,7 @@ module.exports = defineConfig({
     chainWebpack(config) {
     },
     css: {
-        requireModuleExtension: false, // CSS Module文件是否需要扩展名[.module]
+        // requireModuleExtension: false, // CSS Module文件是否需要扩展名[.module]
         extract: true, // 是否将组件中的 CSS 提取至一个独立的 CSS 文件中,而不是动态注入到 JavaScript 中的 inline 代码
         sourceMap: false, // 是否为 CSS 开启 source map,true会影响构建的性能
         loaderOptions: {
